@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class AppMain {
+
+	public static void main(String[] args) {
+		int ch=0;
+		Scanner sc=new Scanner(System.in);
+		
+		AppEngine app=new AppEngine();
+		switch(ch) 
+		{
+		case 1:
+			System.out.println("Course Details");
+			app.introduce(null);
+			break;
+		
+		}
+		 
+		
+
+	}
+
+}

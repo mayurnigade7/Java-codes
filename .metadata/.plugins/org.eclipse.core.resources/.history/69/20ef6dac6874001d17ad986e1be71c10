@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class AppEngine {
+		Scanner sc=new Scanner(System.in);
+	public void introduce(Course course) 
+	{
+		int crs_No;
+		String crs_name;
+		
+		System.out.println("Enter Course Id=");
+		crs_No=sc.nextInt();
+		System.out.println("Enter Course Name=");
+		crs_name=sc.next();
+		
+	    }
+	  public void register(Student student) {
+		  int Stud_id;
+		  String Stud_Name;
+		  
+		  System.out.println("Enter student Id=");
+		  Stud_id=sc.nextInt();
+		  System.out.println("Enter student name=");
+		  Stud_Name=sc.next();
+	    }
+
+	   public Student[] listOfStudents() {
+
+	    }
+
+	  public Course[] listOfCourses() {
+		
+
+	    }
+
+	   public void enroll(Student student, Course course) {
+
+	    }
+
+	   public Enroll[] listOfEnrollments() {
+
+	    }
+
+	}
+
+

@@ -1,0 +1,66 @@
+import java.util.Scanner;
+
+public class AppEngine {
+	Scanner sc=new Scanner(System.in);
+	public void introduce(Course course) 
+	{
+		int crs_No;
+		String crs_name;
+
+		System.out.println("Enter Course Id=");
+		crs_No=sc.nextInt();
+		System.out.println("Enter Course Name=");
+		crs_name=sc.next();
+
+	}
+	public void register(Student student) {
+		int Stud_id;
+		String Stud_Name;
+
+		System.out.println("Enter student Id=");
+		Stud_id=sc.nextInt();
+		System.out.println("Enter student name=");
+		Stud_Name=sc.next();
+	}
+
+	public Student[] listOfStudents() {
+		System.out.println("How many student details you want=");
+		int n=sc.nextInt();
+		Student stud[]=new Student[n];
+		for(int i=0;i<=stud.length;i++) 
+		{
+			System.out.println("Enter student Id=");
+			int Stud_id=sc.nextInt();
+			System.out.println("Enter student name=");
+			String Stud_Name=sc.next();
+		}return stud;
+
+	}
+
+	public Course[] listOfCourses() {
+		System.out.println("How many courses do you want=");
+		int n=sc.nextInt();
+
+		Course crs[]=new Course[n];
+		for(int i=0;i<=crs.length;i++)
+		{
+			System.out.println("Enter Course Id=");
+			int crs_No=sc.nextInt();
+			System.out.println("Enter Course Name=");
+			String crs_name=sc.next();
+		}return crs;
+
+	}
+
+	/*public void enroll(Student student, Course course) {
+
+	}
+
+	public Enroll[] listOfEnrollments() {
+
+	}*/
+	
+
+}
+
+

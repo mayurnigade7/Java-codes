@@ -1,0 +1,14 @@
+
+public class Casestudy_Main {
+
+	public static void main(String[] args) {
+		Student stud=new Student(101, "MAyur", 15062001);
+		
+		System.out.println("Student Name:"+stud.getStd_name());
+		System.out.println("Student Id:"+stud.getStd_id());
+		System.out.println("Student Dob:"+stud.getStd_Dob());
+		
+			
+		}
+	}
+

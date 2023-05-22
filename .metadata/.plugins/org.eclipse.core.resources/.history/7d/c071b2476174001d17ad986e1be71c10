@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Info {
+	public void display(Student  student)
+	{
+		int std_id;
+		String std_name;
+		int std_Dob;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter student ID:");
+		std_id=sc.nextInt();
+		System.out.println("Enter student name:");
+		std_name=sc.next();
+		System.out.println("Enter Student Dob");
+		std_Dob=sc.nextInt();
+		
+		}
+		
+	}
+
+
